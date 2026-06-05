@@ -1,2 +1,13 @@
-npm init -y
-npm install express socket.io
+{
+  "name": "xprojectslot-backend",
+  "version": "1.0.0",
+  "description": "Backend dla maszyny losujacej",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "socket.io": "^4.7.5"
+  }
+}
